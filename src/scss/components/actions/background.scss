@@ -1,0 +1,11 @@
+#super-film {
+    .actions-background {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(107, 107, 107, 0.5);
+        width: 100vw;
+        height: 100vh;
+        z-index: 1200;
+    }
+}

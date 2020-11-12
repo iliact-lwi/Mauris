@@ -1,0 +1,39 @@
+#super-film {
+    .films {
+        font-size: 16px;
+    }
+
+    .films-search-date {
+        font-weight: 600;
+        text-align: center;
+        padding: 18px;
+        border-bottom: 1px solid $light-grey;
+        word-spacing: 5px;
+    }
+
+    .films-more {
+        border: 1px solid $light-grey;
+        border-radius: 5px;
+        padding: 7px;
+        display: flex;
+        justify-content: center;
+        margin: 30px 25px;
+        cursor: pointer;
+
+        &:active, &:focus {
+            background-color: $light-red;
+        }
+    }
+    
+    .films-more-text {
+        color: $light-grey;
+    }
+
+    .films-more-button {
+        color: $light-grey;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+}
+
+@import './item.scss';

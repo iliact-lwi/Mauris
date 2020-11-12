@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$light-grey: rgb(210, 210, 210);
+$light-red: rgba(210, 25, 80, 1);
+
+@import './bootstrap/custom.scss';
+@import './background/background.css';
+@import './components/global/global.scss';
+@import './components/header/header.scss';
+@import './components/description/description.scss';
+@import './components/calendar/calendar.scss';
+@import './components/actions/actions.scss';
+@import './components/films/films.scss';

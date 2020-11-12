@@ -1,0 +1,13 @@
+#super-film {
+    .description-tv {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .description-text {
+        text-align: center;
+        padding: 30px 50px;
+        line-height: 1.2;
+    }
+}
